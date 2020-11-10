@@ -1,11 +1,12 @@
 #include <iostream>
 using namespace std;
 int main() {
-
 int numbers[10] = {12, 13, 5, 7, 11, 4, 8, 9, 3, 6};
+int temp[4];
 for (int i=0; i<10; i++) {
   if (numbers[i] % 2 == 0) {
-    cout << numbers[i] << endl;
+    temp[4] = numbers[i];
+    cout << temp[4] << endl;
   }
   }
 }
